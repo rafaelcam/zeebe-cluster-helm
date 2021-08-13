@@ -76,6 +76,8 @@ This functionality is in beta and is subject to change. The design and code is l
 | `serviceGatewayName`         | The gateway port name used by the gateway | `gateway`
 | `serviceInternalName`         | The internal port name used by the brokers and the gateway | `internal`
 | `serviceCommandName`         | The command port name used the brokers | `command`
+| `serviceType`         | The type of the k8s service | `ClusterIP`
+| `serviceClusterIP`         | The clusterIP of the k8s service | `None`
 
 ## Examples
 
